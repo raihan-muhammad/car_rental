@@ -1,0 +1,59 @@
+p, .nav-link {
+	font-size: 14px;
+}
+
+header {
+	background-color: #F1F3FF;
+	width: 100%;
+	height: 500px;
+}
+
+header .img-hero {
+	width: 704px;
+	height: 407px;
+}
+
+header .hero {
+	padding-top: 13px;
+}
+
+header .hero p {
+	width: 75%;
+	font-weight: 300;
+	line-height: 20px;
+	padding-top: 8px;
+}
+
+header .hero .btn-hero {
+	padding: 8px 12px;
+	border-radius: 2px;
+	background-color: #5CB85F;
+	border: none;
+}
+
+header nav {
+	background-color: #F1F3FF;
+}
+
+header nav .logo {
+	width: 100px;
+	height: 34px;
+	background-color: #0D28A6;
+}
+
+header .padding-nav {
+	padding: 1.5rem 0;
+}
+
+header .navbar-nav .nav-item:not(:last-child) .nav-link {
+	margin-right: 32px;
+	color: #000;
+}
+
+header .navbar-nav .nav-item:last-child .nav-link {
+	background-color: #5CB85F;
+	border-radius: 2px;
+	color: #fff;
+	padding: 8px 12px;
+	font-weight: 700;
+}
